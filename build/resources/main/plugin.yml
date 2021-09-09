@@ -1,0 +1,8 @@
+name: ACombatTag
+author: azefgh456
+version: 1.0.3
+main: fr.acore.spigot.ACombatTag
+depend: [ACoreSpigotAPI]
+commands:
+ combattag:
+  aliases: [combat, ct]

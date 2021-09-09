@@ -1,0 +1,18 @@
+license: ""
+combatTag:
+  prefix: "&6[&eCT&6]"
+  permission: "combat.bypass"
+  version: "1.0.0"
+  combatTime: 25000
+  messageInCombat: "%prefix% &eVous etes desormais en combat contre &6%player% &ependant &6%time% &esecondes !"
+  messageCombatFinish: "%prefix% &aVous n'etes plus en combat ! Vous pouvez vous deconnecter !"
+  messageCTEnCombat: "%prefix% &eVous etes encore en combat pendant &6%time%&e."
+  messageCTPasEnCombat: "%prefix% &aVous n'etes pas en combat ! Vous pouvez vous deconnecter sans probleme !"
+  messageCmdBloked: "%prefix% &cVous ne pouvez pas faire cette commande en combat !"
+  deadMessage: "%prefix% &eLe joueur &6%player% &evient de se deconnecter en combat !"
+  nonBlokedCmd:
+    - "feed"
+    - "near"
+    - "f home"
+    - "ct"
+    - "combat"
